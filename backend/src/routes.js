@@ -10,7 +10,7 @@ const SearchController = require('./controllers/SearchController');
 // Body Params -> Fica no corpo da requisição(POST)
 
 routes.get('/', (request, response) => {
-    return response.json({message: 'Hello A'});
+    return response.json({message: 'Hello'});
 });
 
 routes.post('/devs', devController.store);

@@ -33,6 +33,8 @@ module.exports = {
             dev.save((error) => {
                 console.log(error);
             });
+
+            console.log('atualizou');
             
         }
         
@@ -53,6 +55,8 @@ module.exports = {
             const deleted = true;
 
             devToDelete = {deleted};
+
+            console.log('deletou');
         }
 
         return response.json(devToDelete);

@@ -1,0 +1,39 @@
+.dev-item{
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    padding: 20px;
+}
+
+.dev-item p{
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.dev-item a{
+    color: #8E4FFF;
+    font-size: 14px;
+}
+
+.dev-item a:hover{
+    color: #5A2EA6;
+}
+
+.dev-item header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dev-item header img{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+}
+
+.dev-item header .user-info{
+    margin-left: 10px;
+}
